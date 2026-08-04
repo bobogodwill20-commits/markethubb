@@ -8,6 +8,8 @@ environment:
 
 dependencies:
   flutter:
+    config:
+      enable-swift-package-manager: false
     uses-material-design: true
     sdk: flutter
   
