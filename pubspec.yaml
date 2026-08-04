@@ -8,9 +8,6 @@ environment:
 
 dependencies:
   flutter:
-    config:
-      enable-swift-package-manager: false
-    uses-material-design: true
     sdk: flutter
   
   # Supabase & Backend
@@ -45,7 +42,6 @@ dependencies:
   
   # Charts & Analytics
   fl_chart: ^0.66.0
-
   
   # CSV Export & Sharing
   csv: ^5.1.1
@@ -73,6 +69,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
+  # ⬇️ MOVED TO CORRECT LOCATION ⬇️
+  config:
+    enable-swift-package-manager: false
   
   assets:
     - assets/images/
