@@ -1,0 +1,35 @@
+﻿# Flutter/Dart
+build/
+.dart_tool/
+.pub/
+.pub-cache/
+pubspec.lock
+
+# Android
+*.iml
+.idea/
+.gradle/
+local.properties
+*.dex
+
+# iOS
+*.xcworkspace
+*.xcuserstate
+Pods/
+Podfile.lock
+DerivedData/
+
+# VS Code
+.vscode/
+
+# Windows
+*.exe
+*.dll
+
+# Logs
+*.log
+flutter_*.log
+hs_err_pid*.log
+
+# macOS
+.DS_Store
